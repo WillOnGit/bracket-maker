@@ -1,0 +1,51 @@
+player1 vs player2
+
+-------------------------------------------
+
+player1 vs player2 ──┐
+                     ├─── player1 vs player3
+player3 vs player4 ──┘
+
+-------------------------------------------
+
+player1 vs player2 ──┐
+                     ├─── player1 vs player3 ──┐
+player3 vs player4 ──┘                         │
+                                               ├── player1 vs player5
+player5 vs player6 ──┐                         │
+                     ├─── player5 vs player7 ──┘
+player7 vs player8 ──┘
+
+-------------------------------------------
+
+player1 vs player2 ────┐
+                       ├─── player1 vs player3 ────┐
+player3 vs player4 ────┘                           │
+                                                   ├── player1 vs player5 ───┐
+player5 vs player6 ────┐                           │                         │
+                       ├─── player5 vs player7 ────┘                         │
+player7 vs player8 ────┘                                                     │
+                                                                             ├── player1 vs player9
+player9  vs player10 ──┐                                                     │
+                       ├─── player9 vs player11 ───┐                         │
+player11 vs player12 ──┘                           │                         │
+                                                   ├── player9 vs player13 ──┘
+player13 vs player14 ──┐                           │
+                       ├─── player13 vs player15 ──┘
+player15 vs player16 ──┘
+
+player1 vs player2 ────┐
+                       ├───   vs   ────┐
+player3 vs player4 ────┘               │
+                                       ├──   vs   ───┐
+player5 vs player6 ────┐               │             │
+                       ├───   vs   ────┘             │
+player7 vs player8 ────┘                             │
+                                                     ├──   vs
+player9  vs player10 ──┐                             │
+                       ├───   vs   ───┐              │
+player11 vs player12 ──┘              │              │
+                                      ├──    vs    ──┘
+player13 vs player14 ──┐              │
+                       ├───   vs    ──┘
+player15 vs player16 ──┘

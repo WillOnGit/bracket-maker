@@ -31,7 +31,7 @@ def byeSequence(rounds, byes):
 # find how many rounds and byes we need
 rounds = math.ceil(math.log2(num_players))
 num_pseudoplayers = 2 ** rounds
-byes = num_pseudoplayers - len(players)
+byes = num_pseudoplayers - num_players
 
 # make the pairings
 # shuffle players and insert byes
